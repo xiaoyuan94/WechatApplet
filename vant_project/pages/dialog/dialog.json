@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Dialog弹出",
+  "usingComponents": {
+    "van-dialog": "@vant/weapp/dialog/index",
+    "van-button": "@vant/weapp/button/index"
+  }
+}

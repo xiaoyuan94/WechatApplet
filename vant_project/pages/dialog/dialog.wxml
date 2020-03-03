@@ -1,0 +1,6 @@
+
+<van-button type="primary" bind:click="btDialog">Dialog</van-button>
+
+
+
+<van-dialog id="van-dialog" />

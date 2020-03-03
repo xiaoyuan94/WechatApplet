@@ -1,16 +1,14 @@
-//index.js
-//获取应用实例
-const app = getApp()
-
 Page({
   data: {
-    motto: 'Hello World',
+    active: 0
   },
-  //事件处理函数
-  bindViewTap: function() {
+  onChange(event) {
+    // event.detail 的值为当前选中项的索引
+    this.setData({ active: event.detail });
+  },
+  btDialog(){
     wx.navigateTo({
-      url: '../logs/logs'
-    })
-  },
- 
-})
+      url: '../dialog/dialog'
+    });
+  }
+});

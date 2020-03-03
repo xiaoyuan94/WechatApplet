@@ -1,2 +1,11 @@
 
-<van-button type="primary" bindtap="btStorage">storage</van-button>
+<van-button type="primary" bind:click="btDialog">跳转Dialog</van-button>
+
+
+
+<van-tabbar active="{{ active }}" bind:change="onChange">
+  <van-tabbar-item icon="home-o">标签</van-tabbar-item>
+  <van-tabbar-item icon="search">标签</van-tabbar-item>
+  <van-tabbar-item icon="friends-o">标签</van-tabbar-item>
+  <van-tabbar-item icon="setting-o">标签</van-tabbar-item>
+</van-tabbar>
